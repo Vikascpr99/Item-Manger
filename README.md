@@ -15,5 +15,12 @@ Api :- http://localhost:9090/api/items
 
 ![image](https://github.com/user-attachments/assets/4aec17d5-b08f-4c2c-b1f9-a20cc7307b62)
 
+* For Search item by it's title
+* Api :- http://localhost:9090/api/search-items-by-title?title=Book
+* Method :- GET
+
+  ![image](https://github.com/user-attachments/assets/1bcf1ee8-e717-436c-9a7b-2bbc70767bcb)
+
+
 
 
