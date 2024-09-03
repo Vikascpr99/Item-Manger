@@ -16,6 +16,7 @@ public class ItemDto {
 
     private Long _id;
     private String title;
+    private String category;
     private String description;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;

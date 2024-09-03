@@ -94,6 +94,7 @@ public class ItemServiceImpl implements ItemService {
         if (optIe.isPresent()){
             ItemEntity ie = optIe.get();
             ie.setTitle(itemDto.getTitle());
+            ie.setCategory(itemDto.getCategory());
             ie.setDescription(itemDto.getDescription());
             ie.setUpdatedAt(LocalDateTime.now());
             ie = itemRepository.save(ie);

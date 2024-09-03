@@ -21,6 +21,8 @@ public class ItemEntity {
 //    @Column(nullable = false, length = 255, name = "Item_title")
     private String title;
 
+    private String category;
+
 //    @Column(nullable = false, length = 255, name = "Item_desc")
     private String description;
 
